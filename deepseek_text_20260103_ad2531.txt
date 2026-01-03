@@ -1,0 +1,18 @@
+ocr-project/
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── Dockerfile (optional)
+│   └── .env
+└── frontend/
+    ├── package.json
+    ├── public/
+    │   └── index.html
+    └── src/
+        ├── App.js
+        ├── components/
+        │   ├── ImageUploader.js
+        │   ├── OCRResult.js
+        │   └── ProgressBar.js
+        └── styles/
+            └── App.css
